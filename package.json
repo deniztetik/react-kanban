@@ -6,14 +6,11 @@
     "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
   },
   "dependencies": {
-    "autoprefixer": "^8.6.5",
-    "babel-preset-react-app": "^3.1.2",
     "bloomer": "^0.6.3",
     "bulma": "^0.7.1",
-    "node-sass": "^4.9.2",
-    "parcel-bundler": "^1.9.6",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.3"
   },
   "postcss": {
     "modules": false,
@@ -30,6 +27,12 @@
     }
   },
   "devDependencies": {
-    "cross-env": "^5.1.1"
+    "autoprefixer": "^8.6.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.1",
+    "node-sass": "^4.9.2",
+    "parcel-bundler": "^1.9.6"
   }
 }
