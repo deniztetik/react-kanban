@@ -13,7 +13,6 @@ class ProgressSection extends Component {
         e.preventDefault();
 
         const taskTitle = e.dataTransfer.getData('text');
-        console.log('taskTitle', taskTitle);
 
         updateTaskStatus(taskTitle, titleCode);
     };
